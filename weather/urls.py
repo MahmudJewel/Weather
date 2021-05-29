@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.urls import path,include
 
 from django.views.static import serve
-form django.conf.urls import url
+from django.conf.urls import url
 
 urlpatterns = [
 	path('',include('weather_sub.urls')),
