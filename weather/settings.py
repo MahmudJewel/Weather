@@ -25,7 +25,7 @@ SECRET_KEY = 'ijot4nqm*(m$0#vmq1@63kimqd_m323vmtueol7(bu(b^i&xs3'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1','weatherdetector.herokuapp.com']
 
 
 # Application definition
